@@ -1,0 +1,4 @@
+function removeUrlAnchor(url){
+    var array= url.split("#")
+    return array[0]
+}
